@@ -209,7 +209,7 @@ const app = new Vue({
                     <a class="menu" @click='filtro = datos'>Catálogo completo</a>
                 </nav>
                 <div id="menuDesplegable">
-                    <p>Género<p>
+                    <p>Colección<p>
                     <i class="fa-solid fa-bars  fa-2xl" @click="show = !show"></i>
                     <nav v-if="show">
                         <a class="menu" @click='filtrar("Bodegón")'>Bodegónes</a>
